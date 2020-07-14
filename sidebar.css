@@ -1,0 +1,47 @@
+
+.top-week {
+  display:flex;
+  padding:0px 10px;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 10px 0px;
+}
+.top-week .number {
+  font-size: 20px;
+  padding: 0px 8px;
+  flex-basis: 30px;
+}
+.top-week .info {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+.top-week .info .song {
+  margin-bottom: 5px;
+}
+.top-week .info .singer {
+  font-size: 14px;
+  color: #888;
+}
+.time {
+    font-style: normal;
+    font-size: 14px;
+    color: #aaa;
+    flex-basis: 100px;
+ }
+ .mv {
+  position: center;
+  flex-basis: 30px;
+ }
+ .micro {
+   flex-basis: 30px;
+   position: center;
+ }
+ .more {
+   flex-basis: 30px;
+   justify-content: center;
+ }
+ .heart {
+  flex-basis: 30px;
+  justify-content: center;
+ }

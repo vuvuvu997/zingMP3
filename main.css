@@ -1,0 +1,140 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.row1{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.col-4{
+  max-width: 33.333%;
+  flex : 0 0 33.333%;
+}
+.col-2{
+  max-width: 16.667%;
+  flex : 1 1 16.667%;
+}
+.col-3{
+  max-width: 25%;
+  flex : 0 0 25%;
+}
+.col-7{
+  max-width: 58.333%;
+  flex : 0 0 58.333%;
+}
+.col-8{
+  max-width: 66.667%;
+  flex : 0 0 60%;
+  padding-top: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.col-12 {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+.overflow-hidden{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+}
+.w-100{
+  width: 100%;
+}
+.d-flex{
+  display: flex;
+}
+
+.location {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.album-square {
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  font-size: 60px;
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./phanduyanh.png');
+}
+
+.album-square:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.album-square .overlay {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+.overlay {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.album-square:hover .overlay   {
+  opacity: 1;
+  color: #fff;
+}
+
+.album-square .overlay .fa-play-circle {
+  transform: scale(0.5);
+  color: #fff;
+}
+.album-square:hover .overlay .fa-play-circle {
+  transform: scale(0.7);
+  transition: all 0.5s;
+}
+
+.main .info-album  {
+  text-align: center;
+}
+.main .info-album .row1 {
+  font-size: 30px;
+  font-style: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.main .info-album .row2 .button{
+  color: #fff;
+  background-color: #400775;
+}
+.main .info-album .row3 {
+  font-style: normal;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.font-style {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.background-singer {
+  width: 55px;
+  height: 55px;
+  background-image: url("https://loremflickr.com/320/240");
+  background-size: cover;
+}

@@ -1,0 +1,104 @@
+body {
+	font-family: Arial, sans-serif;
+}
+.header {
+	margin-top: 10px;
+}
+
+.header .row1 .row12 {
+	flex-basis: 200px;
+	flex-grow: 1;
+	padding: 0px 100px;
+	align-items: center;
+}
+input[type=text] {
+	width: 100%;
+   	box-sizing: border-box;
+ 	border: 2px solid #ccc;
+ 	border-radius: 4px;
+ 	font-size: 16px;
+	background-color: white;
+  	background-repeat: no-repeat;
+  	padding: 12px 20px 12px 40px;
+  	background-size: cover;
+	
+}
+.text-input {
+	position: relative;
+}
+.fa-search {
+	position: absolute;
+	left: 10px;
+    top: 8px;
+}
+ .menu {
+ 	list-style: none;
+ 	padding: 8px 16px;
+ }
+
+ .padding-menu {
+ 	padding: 8px 16px;
+ 
+ }
+.has-zingchart {
+	border: 1px solid #eee;
+	position: absolute;
+	background-color: #fff;
+	height: 100px;
+	width: 400px;
+	display: none;
+	top: 27px;
+    left: -2px;
+}
+
+.zingchart:hover .has-zingchart {
+	display: block;
+}
+ a{
+ 	text-decoration: none;
+ }
+
+ .zingchart {
+ 	position: relative;
+ 	
+ }
+ .realtime {
+ 	position: absolute;
+ 	list-style: none;
+ 	top: 27px;
+    left: -2px;
+    display: none;
+ }
+ .tuan {
+ 	position: absolute;
+ 	list-style: none;
+ 	top :27px;
+ 	left: 92px;
+ 	display: none;
+ }
+ .us-uk {
+ 	position: absolute;
+ 	list-style: none;
+ 	top :27px;
+ 	left: 177px;
+ 	display: none;
+ }
+ .k-pop {
+ 	position: absolute;
+ 	list-style: none;
+ 	top :27px;
+ 	left: 280px;
+ 	display: none;
+ }
+ .zingchart:hover .realtime {
+	display: block;
+}
+ .zingchart:hover .tuan {
+	display: block;
+}
+ .zingchart:hover .us-uk {
+	display: block;
+}
+ .zingchart:hover .k-pop {
+	display: block;
+}
